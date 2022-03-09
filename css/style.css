@@ -5,3 +5,95 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+section::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* /GENERALE */
+/* HEADER */
+
+header{
+  background-color: rgb(49, 97, 224);
+  height: 100px;
+  width: 100%;
+}
+
+
+.head{
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  background-color: aqua;
+}
+
+div.jumbotron{
+  position: relative;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.overlay{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: azure;
+}
+
+/* /HEADER */
+/* MAIN */
+
+.conteiner{
+  width: 100%;
+  height: 500px;
+}
+
+.primo{
+  margin-top: 500px;
+}
+
+section.pari{
+  background-color: rgb(246, 246, 246) ;
+}
+
+div.box{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+div.box-left{
+  float: left;
+  width: 49%;
+  height: 100%;
+  background-color: lightcoral;
+}
+
+div.box-right{
+  float: left;
+  width: 49%;
+  height: 100%;
+  margin-left: 2%;
+  background-color: lightcoral;
+}
+
+/* /MAIN */
+
+/* fOOTER */
+
+.fondo{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(35, 39, 42);
+}
+
+div.foot{
+  width: 100%;
+  height: 500px;
+  background-color: antiquewhite;
+  
+}
