@@ -4,43 +4,137 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-section::after{
+section::after, head:after{
   content: '';
   display: table;
   clear: both;
 }
+
+.bottone{
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
 
 /* /GENERALE */
 /* HEADER */
 
 header{
   background-color: rgb(49, 97, 224);
-  height: 100px;
   width: 100%;
 }
 
 
 .head{
-  height: 100%;
-  width: 50%;
-  margin: 0 auto;
-  background-color: aqua;
+  height: 80px;
+  width: 80%;
+  margin: 0 auto; 
 }
+
+
+/* Menu */
+
+div.logo{
+  float: left;
+  line-height: 100%;
+  width: 25%;
+  padding-top: 25px;
+}
+
+div.menu{
+  float: left;
+  line-height: 80px;
+  width: 50%;
+}
+
+div.log-in{
+  float: right;
+  line-height: 80px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 1.2rem;
+  color: white;
+}
+
+a:hover{
+   color: rgb(150,226, 206);
+}
+
+a.accedi{
+  background-color: white;
+  color: black;
+}
+
+a.accedi:focus, a.big-left:focus{
+  background-color: rgb(105, 142, 240);
+}
+
+a.accedi:hover{
+  color: rgb(150,226, 206);
+}
+
+a.big-right:focus{
+  background-color: rgb(105, 142, 240);
+}
+
+/* /Menu */
+/* jumbotron */
 
 div.jumbotron{
-  position: relative;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  background-color: aquamarine;
+  height: 600px;
 }
 
-.overlay{
+div.text-jumb{
   width: 80%;
-  height: 500px;
   margin: 0 auto;
-  background-color: azure;
+  text-align: center;
+  padding-top: 150px;
+  
 }
+
+div.text-jumb h1{
+  font-size: 3.5rem;
+  color: white;
+}
+
+div.text-jumb p{
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 55%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  color: white;
+}
+
+a.big-left{
+  background-color: white;
+  color: black;
+}
+
+a.big-left:hover, a.big-right:hover{
+  color: rgb(150,226, 206);
+}
+
+a.big-right{
+  background-color: rgb(35,39, 42);
+  color: white;
+}
+
 
 /* /HEADER */
 /* MAIN */
@@ -48,10 +142,6 @@ div.jumbotron{
 .conteiner{
   width: 100%;
   height: 500px;
-}
-
-.primo{
-  margin-top: 500px;
 }
 
 section.pari{
