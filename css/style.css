@@ -7,18 +7,23 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-section::after, head:after{
+section::after, head:after, footer::after{
   content: '';
   display: table;
   clear: both;
 }
 
-.bottone{
+.bottone-p{
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 50px;
 }
 
+.bottone-b{
+  text-decoration: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+}
 
 /* /GENERALE */
 /* HEADER */
@@ -27,7 +32,6 @@ header{
   background-color: rgb(49, 97, 224);
   width: 100%;
 }
-
 
 .head{
   height: 80px;
@@ -104,7 +108,6 @@ div.text-jumb{
   margin: 0 auto;
   text-align: center;
   padding-top: 150px;
-  
 }
 
 div.text-jumb h1{
@@ -124,6 +127,7 @@ div.text-jumb p{
 a.big-left{
   background-color: white;
   color: black;
+  margin-right: 30px;
 }
 
 a.big-left:hover, a.big-right:hover{
@@ -135,39 +139,112 @@ a.big-right{
   color: white;
 }
 
-
 /* /HEADER */
 /* MAIN */
 
 .conteiner{
   width: 100%;
-  height: 500px;
 }
 
-section.pari{
+section.sfondo{
   background-color: rgb(246, 246, 246) ;
 }
 
 div.box{
   width: 80%;
-  height: 100%;
   margin: 0 auto;
-  background-color: yellow;
+  margin-top: 50px;
 }
 
 div.box-left{
   float: left;
-  width: 49%;
-  height: 100%;
-  background-color: lightcoral;
+  width: 50%;
 }
 
 div.box-right{
-  float: left;
-  width: 49%;
-  height: 100%;
-  margin-left: 2%;
-  background-color: lightcoral;
+  float: right;
+  width: 50%;
+}
+
+div.Lcol-1{
+ margin-top: -20px;
+}
+
+div.Rcol-1 h2{
+  margin: 0 auto;
+  width: 50%;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 20px;
+}  
+
+div.Rcol-1 p{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+div.Lcol-2 h2{
+  margin: 0 auto;
+  width: 50%;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}  
+
+div.Lcol-2 p{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+div.Rcol-3 h2{
+  margin: 0 auto;
+  width: 50%;
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 20px;
+}  
+
+div.Rcol-3 p{
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+div.capo h2{
+  font-size: 3rem;
+  padding: 20px 0;
+  text-align: center;
+}
+
+div.capo p{
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.item4{
+  text-align: center;
+}
+
+.base img{
+  margin-left: 31%;
+}
+
+.base h3{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+a.big-ultimo{
+  color: white;
+  background-color: rgb(142, 161, 225);
+  margin-left: 43%;
 }
 
 /* /MAIN */
@@ -183,7 +260,7 @@ div.box-right{
 
 div.foot{
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-color: antiquewhite;
   
 }
