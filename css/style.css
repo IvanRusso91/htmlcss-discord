@@ -248,7 +248,7 @@ div.foot{
 
 div.fondo{
   width: 80%;
-  height: 600px;
+  height:700px;
   margin: 0 auto;
  
 }
@@ -257,14 +257,14 @@ div.fondo{
   text-align: left;
   padding-top: 50px;
   float: left;
-  width: 32%;
+  width: 34%;
 }
 
 .col{
   text-align: left;
   padding-top: 50px;
   float: left;
-  width: 17%;
+  width: 14%;
 }
 /* /Divisioni in Colonne */
 
@@ -275,7 +275,7 @@ div.col-1 nav ul li{
 }
 
 div.col nav ul li{
-  padding: 10px;
+  padding: 15px;
 }
 
 div.col nav ul li:hover{
@@ -305,9 +305,21 @@ div.col nav ul li:hover{
   font-size: small;
 }
 
-hr{
-  
+hr{ 
   margin: 10px;
   border: 1px solid rgb(114, 137 , 218);;
+}
+
+.registrati{
+  background-color: rgb(114, 137 , 218);
+  color: white;
+}
+
+a.registrati:hover{
+  color: rgb(150,226, 206);
+}
+
+a.registrati:focus{
+  background-color: rgb(105, 142, 240);
 }
 /* /Lista */
