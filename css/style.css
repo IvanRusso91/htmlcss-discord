@@ -256,11 +256,11 @@ div.foot{
   margin-top: 26px;
 }
 
-div.fondo{
+/* div.fondo{
   width: 90%;
   margin: 0 auto;
   
-}
+} */
 
 .col-1{
   text-align: left;
@@ -274,17 +274,19 @@ div.fondo{
   padding-top: 50px;
   float: left;
   width: 14%;
+  height: 600px;
 }
 /* /Divisioni in Colonne */
 
 /* Lista */
+
 
 div.col-1 nav ul li{
   margin-top: 30px;
 }
 
 div.col nav ul li{
-  padding: 15px;
+  padding: 10px;
 }
 
 div.col nav ul li:hover{
@@ -301,7 +303,7 @@ div.col nav ul li:hover{
 }
 
 .col h4{
-  margin-left: 40px;
+  margin-left:25px;
 }
 
 .col-1 img{
@@ -331,4 +333,10 @@ a.registrati:hover{
 a.registrati:focus{
   background-color: rgb(105, 142, 240);
 }
+
+.col-btn{
+  float: right;
+}
+
+
 /* /Lista */
